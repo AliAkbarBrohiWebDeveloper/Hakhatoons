@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Dynamic Resume by Ali Akbar Brohi</h1>
+    <form id="resume-form">
+
+        <fieldset>
+
+            <legend>Personal information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email: </label>
+        
+            <input type="email" id="email" placeholder="Enter your Email" required>
+
+            <label for="phone">Phone: </label>
+        
+            <input type="tel" id="phone" placeholder="Enter your phone Number" required>
+        </fieldset>
+        <fieldset>
+
+            <legend>Education</legend>
+            <label for="Education"> Education</label>
+            <textarea  id="Education" placeholder="Enter your Education here" rows="4"></textarea>
+
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="Experience"></label>
+            <textarea  id="Experience" placeholder="Enter your Experience here" rows="4" required></textarea>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>skills</legend>
+            <label for="skills"></label>
+            <textarea  id="skills" placeholder="Enter your skills" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit"><b>Generate Resume</b></button>
+
+    </form>
+    <br>
+    <div id="resume-display">
+
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
